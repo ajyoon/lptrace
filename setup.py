@@ -10,5 +10,8 @@ setup(
   download_url = 'http://github.com/khamidou/lptrace/tarball/1.0.0',
   keywords = ['debugging', 'production', 'tracing'],
   classifiers = [],
-  scripts=['lptrace'],
+  entry_points = {
+    'console_scripts': 'lptrace=lptrace:main'
+  },
+  scripts=[],
 )

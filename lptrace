@@ -1,9 +1,0 @@
-#!/usr/bin/env python2
-# lptrace - Copyright (c) 2016 Karim Hamidou.
-
-# Launcher script for CLI. See lptrace.py for implementation
-
-import lptrace
-
-if __name__ == '__main__':
-    lptrace.main()
